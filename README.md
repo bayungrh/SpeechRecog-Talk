@@ -6,7 +6,7 @@ Mengobrol menggunakan Speech Recognition dengan kata kunci yang sudah ditentukan
 ##### EN
 Talk using Speech Recognition with predefined keywords.
 
-###### Feature :
+##### Feature :
 - Speech Recognition
 - Text to Speech (EN)
 
