@@ -7,8 +7,8 @@ Mengobrol menggunakan Speech Recognition dengan kata kunci yang sudah ditentukan
 Talk using Speech Recognition with predefined keywords.
 
 ##### Feature :
-[x] Speech Recognition
-[x] Text to Speech (EN)
+- [x] Speech Recognition
+- [x] Text to Speech (EN)
 
 <kbd>
   <img src="https://i.imgur.com/YfcMlPY.png" />
