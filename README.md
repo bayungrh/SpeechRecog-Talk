@@ -11,7 +11,7 @@ Talk using Speech Recognition with predefined keywords.
 - Text to Speech (EN)
 
 <kbd>
-![demo](https://i.imgur.com/YfcMlPY.png)
+  <img src="https://i.imgur.com/YfcMlPY.png" />
 </kbd>
 
 ###### NOTE :
