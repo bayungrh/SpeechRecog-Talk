@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://bootswatch.com/yeti/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- <script src="https://rawgit.com/Hagsten/Talkify/master/src/talkify.min.js"></script> -->
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+</head>
+<body>
+
+<div id="outer"> 
+	<div id="inner"> 
+	<a class="btn btn-sm" onclick="$('#modalSetting').modal('show')"><i class="fa fa-gear"></i></a>
+	<div class="row">
+		<center><img src="/assets/img/cortana1.gif" height="100"></center><br/><br/>
+		  <div class="col-lg-6">
+		    <div class="input-group">
+			      <input type="text" class="form-control" data-type="talktext" readonly>
+			      <span class="input-group-btn">
+			        <button class="btn btn-success" data-type="btn-talk" type="button"><i class="fa fa-microphone fa-3x"></i></button>
+			      </span>
+		    </div><!-- /input-group -->
+		    <center>
+			    <div class="input-group">
+			      <h1 id="result"></h1>
+			      <div class="element"></div>
+			    </div>
+		    </center>
+		  </div><!-- /.col-lg-6 -->
+	</div>
+	</div> 
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="modalSetting" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a type="button" class="close" data-dismiss="modal">&times;</a>
+          <h3 class="modal-title">Change Search Engine</h3>
+        </div>
+        <div class="modal-body" style="font-family: Arial;">
+        	<div class="form-group">
+	          <select id="selectSearchE" onclick="changeSearchEngine(this)" class="form-control">
+	          		<option value="google">Google</option>
+	          		<option value="bing">Bing</option>
+	          </select>
+	         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<audio id="audio" src="/assets/audio/cortana.mp3" ></audio>
+</body>
+<script src="a430e06de5ce438d499c2e4063d60fd6/?js=assistant"></script>
+<script src="a430e06de5ce438d499c2e4063d60fd6/?js=typed"></script>
+</html>
