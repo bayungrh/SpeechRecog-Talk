@@ -9,6 +9,8 @@ Talk using Speech Recognition with predefined keywords.
 ##### Feature :
 - [x] Speech Recognition
 - [x] Text to Speech (EN)
+- [x] Open website with command
+- [x] Searching keyword with Search Engine
 
 <kbd><img src="https://i.imgur.com/91YesDw.png" /></kbd><br/>
 <kbd><img src="https://i.imgur.com/YfcMlPY.png" /></kbd>
