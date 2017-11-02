@@ -1,7 +1,7 @@
 # SpeechRecog-Talk
 
 ##### ID
-Mengobrol menggunakan Speech Recognition dengan kata kunci yang sudah ditentukan.
+Berbicara menggunakan Speech Recognition dengan kata kunci yang sudah ditentukan.
 
 ##### EN
 Talk using Speech Recognition with predefined keywords.
