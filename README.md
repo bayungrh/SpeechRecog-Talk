@@ -10,9 +10,8 @@ Talk using Speech Recognition with predefined keywords.
 - [x] Speech Recognition
 - [x] Text to Speech (EN)
 
-<kbd>
-  <img src="https://i.imgur.com/YfcMlPY.png" />
-</kbd>
+<kbd><img src="https://i.imgur.com/91YesDw.png" /></kbd>
+<kbd><img src="https://i.imgur.com/YfcMlPY.png" /></kbd>
 
 ###### NOTE :
 Only support for Google Chrome
