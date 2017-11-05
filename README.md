@@ -22,4 +22,4 @@ Talk using Speech Recognition with predefined keywords.
 
 
 ###### DEMO :
-https://bayyu.herokuapp.com/talk/
+https://bayuu.herokuapp.com/talk/
