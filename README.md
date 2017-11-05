@@ -19,3 +19,7 @@ Talk using Speech Recognition with predefined keywords.
 ###### NOTE :
 - Do not forget to star in this repository
 - Only support for Google Chrome or using WebKit Engine
+
+
+###### DEMO :
+https://bayyu.herokuapp.com/talk/
